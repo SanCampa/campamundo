@@ -1,0 +1,172 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 200%;
+    text-align:center;
+    
+}
+
+
+h2{
+    display: flex;
+    text-align: row;
+    justify-content: start;
+    font-size: 150%;
+}
+
+h3{
+    display: flex;
+    text-align: row;
+    justify-content: center;
+    font-size: 120%
+
+}
+
+
+.bordeImagenPrinc{
+    border:inset 4px whitesmoke;
+    
+}
+
+.subtitulo{
+    font-size:32px;
+}
+
+.seleccionConsolasPc{
+    font-size: 24px;
+}
+
+.seleccionConsolas{
+    font-size: 20px;
+}
+
+header{
+    background-image: url(https://www.todofondos.net/wp-content/uploads/gamer-wallpaper-1024x576.jpg) ;
+    background-size: cover;
+    color: white;
+    height: 120px;
+}
+
+main{
+    background-image: url(https://fondosmil.com/fondo/36779.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 992px;
+}
+
+footer{
+    background-image: url(https://fondosmil.com/fondo/3618.jpg);
+    height: 180px;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color: white;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.derecha{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.letrasGrandes{
+    font-size: 22px;
+}
+
+.bordesRedondos{
+    border-radius: 30px;
+}
+
+.cajaImagenP{
+    position:absolute;
+    top: 28%;
+    left: 28%;
+}
+
+
+.nombreVideoTamaño{
+    font-size: 25px;
+}
+
+.mainVideos{
+    height: 2150px;
+}
+
+.letrasSobreNos{
+    font-size: 30px;
+}
+
+.linea{
+    display: inline;
+}
+
+
+.puntosLista{
+    list-style: inside;
+}
+
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    font-size: 90%;
+    border-radius: 30px;
+    color: white;
+}
+
+nav ul li{
+    padding:8px ;
+
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.videosLinea{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 200px;
+
+}
+
+.videosTamaño{
+    width: 600px;
+    height: 315px;
+    margin:0px 20px 0px 35px;
+
+}
+
+.nombreVideosTamaño{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 200px;
+}
+
+.fotoPrincTamaño{
+    width: 300px;
+    height: 200px;
+
+}
+
+
+
